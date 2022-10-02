@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            Formatter f = new Formatter();
+            Formatter k = new Formatter();
+            
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s1=sc.next();
+                int x=sc.nextInt();
+                f = new Formatter();
+                k = new Formatter();
+        
+                //Complete this line
+                System.out.print(f.format("%-15s", s1));
+                System.out.print(k.format("%03d", x));
+                System.out.println();
+            }
+            System.out.println("================================");
+
+    }
+}
